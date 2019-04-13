@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+html, body {
+    height:100%;
+}
+
+.home-container{
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+    height: 100%;
+    background-image: url('/images/home-background.jpg');
+    height: 100%; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container {
+    margin: 0;
+    padding-left: 98px;
+    padding-right: 98px;
+    padding-top: 28px;
+}
+
+h1 {
+    margin: 0;
+    padding: 0;
+}
+
+.nav {
+    position: relative;
+    text-align: right;
+}
+
+.nav ul {
+    display: inline-flex;
+    padding: 0;
+    margin: 0;
+}
+
+.nav li {
+    display:inline;
+    font-size: 23px;
+    margin-left: 20px;
+}
+
+.nav a {
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Montserrat';
+}
+
+.nav a:hover {
+    font-weight: bold;
+}
+
+.nav img {
+    display: inline-block;
+    margin: 0;
+    float: left;
+    cursor: pointer;
+}
+
+.main-slogan {
+    color: #fff;
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 36px;
+    margin: 0;
+    padding: 0;
+    
+}
+
+.slogan-item {
+    color: #fff;
+    font-family: 'Montserrat';
+    font-weight: normal;
+    font-size: 24px;
+}
+
+.slogan {
+    position: relative;
+    padding-top: 170px;
+}
+
+.skills-main-container-right {
+    background: #fff;
+    font-family: 'Montserrat';
+    font-weight: bold;
+    float: right;
+    text-align: right;
+    padding: 0;
+    margin: 0;
+    padding-top: 36px; 
+    padding-right: 106px;
+    padding-bottom: 36px;
+}
+
+.skill-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.down-arrow {
+    padding: 0;
+    margin: 0;
+    padding-left: 49%;
+    padding-top: 13%;
+    animation: down-arrow-anim 0.7s ease-in-out infinite;
+    animation-direction: alternate;
+}
+
+@keyframes down-arrow-anim {
+    0% {
+        padding-top: 13%;
+    }
+
+    100% {
+        padding-top: 14%;
+    }
+}
+
+.skill-header {
+    font-size: 56px;
+}
+
+.skill-type {
+    padding-top: 20px;
+    color: rgb(78, 78, 78);
+    font-size: 36px;
+}
+
+.skill-list-2 img {
+    padding: 0;
+    margin: 0;
+    padding-top: 32px;
+}
+
+.skill-text-container {
+    text-align: left;
+    font-size: 35px;
+    width: 60%;
+    font-family: 'Montserrat';
+    font-weight: bold;
+    color: #363637;
+    padding-left: 15px;
+    padding-top: 5px;
+}
